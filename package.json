@@ -1,0 +1,23 @@
+{
+  "name": "Licensas",
+  "version": "0.0.0",
+  "description": "",
+  "main": "generateKeys.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "async": "^1.4.2",
+    "aws-sdk": "^2.1.50",
+    "blob-stream": "^0.1.3",
+    "colors": "^1.0.3",
+    "http-server": "^0.8.0",
+    "optimist": "^0.6.1",
+    "pdfkit": "^0.7.1",
+    "rimraf": "^2.4.3",
+    "unzip": "^0.1.11"
+  }
+}
